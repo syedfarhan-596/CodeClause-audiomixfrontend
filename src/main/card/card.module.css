@@ -1,0 +1,25 @@
+.image{
+    border-radius: 20%;
+    box-shadow: inset 10px 10px 19px #d8b1b1,
+}
+.image:hover{
+    transform: scale(1.1);
+}
+.image:hover ~ .button{
+    display: block;
+}
+.button:hover{
+    display: block;
+}
+.containerImgBtn{
+    position: relative;
+}
+.button{
+    position: absolute;
+    top: -10%;
+    left: -10%;
+    color: black;
+    font-size: 30px;
+    border: none;
+    display: none;
+}

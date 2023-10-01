@@ -1,0 +1,42 @@
+.containerbody{
+    background-image: url(../../../back5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 105vh;
+}
+.blurEffect{
+    position: absolute;
+    top: 2%;
+    left:3%;
+    box-shadow: inset 50px 50px 100px #543b3b,
+    inset -50px -50px 100px #4a3f3f; 
+    backdrop-filter: blur(4px);
+    width: 100%;
+    height: 100%;
+}
+.hovertext:hover{
+    color: black;
+}
+.hovertextfamily{
+    font-family:'Playfair Display', serif;
+    font-weight: bold;
+}
+.button{
+    border: none;
+    border-radius: 5%;
+    background-color: gray;
+    font-weight: bold;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+}
+.pagetext{
+    font-weight: bold;
+}
+
+.cardContainer{
+    width: 20%;
+    margin: 2%;
+}
